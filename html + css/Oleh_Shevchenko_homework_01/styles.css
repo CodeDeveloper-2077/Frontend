@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+}
+
+header {
+    padding-top: 131px;
+    margin-bottom: 150px;
+}
+
+main>section:nth-child(1) {
+    height: 736px;
+    margin-bottom: 150px;
+}
+
+section {
+    text-align: center;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header img {
+    margin-bottom: 56px;
+}
+
+h1 {
+    margin-bottom: 16px;
+    font-size: 46px;
+    line-height: 58px;
+    letter-spacing: -0.75px;
+    color: #4C545C;
+}
+
+h1~p {
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+
+    color: #9EABB2;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section>div:nth-child(1) {
+    max-width: 730px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ios-button {
+    margin-right: 16px;
+    padding: 13px 39px;
+    background-color: #26BBA4;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.mac-button {
+    padding: 13px 39px;
+    background-color: #6174FF;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.monitor {
+    display: block;
+    float: left;
+    margin-right: 101.03px;
+}
+
+.devices {
+    margin-top: 110px;
+    width: 812px;
+    height: 475px;
+    margin-bottom: 161px;
+}
+
+h2 {
+    margin-bottom: 19px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.586957px;
+    color: #4C545C;
+}
+
+h2~p {
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    color: #9EABB2;
+}
+
+article {
+    margin-bottom: 56px;
+}
+
+h3 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+}
+
+h3~p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.12px;
+
+    color: #9EABB2;
+}
+
+ul {
+    margin-top: 72px;
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li img {
+    margin-bottom: 46px;
+}
+
+li:nth-child(1) img {
+    margin-bottom: 40px;
+}
+
+li h3 {
+    margin-bottom: 16px;
+}
+
+li p {
+    max-width: 350px;
+}

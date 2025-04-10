@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    padding: 48px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    color: #F2F2F2;
+}
+
+p {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.75;
+
+}
+
+div>img {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+    padding: 12px 32px;
+    color: inherit;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+    background: #F2F2F2;
+    border-radius: 25px;
+}
+
+a:hover {
+    border: 2px solid #FFFFFF;
+    background-color: inherit;
+    border-radius: 25px;
+}
+
+.gray-circle {
+    position: relative;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: rgb(0, 0, 0, 0.2);
+    mix-blend-mode: normal;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-bottom: 83px;
+}
+
+.sedans {
+    max-width: 307px;
+    background: #E28625;
+    border-radius: 8px 0 0 8px;
+}
+
+.sedans>a {
+    color: #E28625;
+}
+
+.sedans>a:hover {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+.suvs {
+    max-width: 307px;
+    background: #006971;
+}
+
+.suvs>a {
+    color: #006971;
+}
+
+.suvs>a:hover {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+.luxury {
+    max-width: 307px;
+    background: #004140;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.luxury>a {
+    color: #004140;
+}
+
+.luxury>a:hover {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}

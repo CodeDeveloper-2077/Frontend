@@ -1,0 +1,571 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    background-color: #FAFAFA;
+}
+
+header {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 190px;
+}
+
+.logo {
+    background-image: url('./assets/logo.svg');
+    width: 119px;
+    height: 28px;
+    margin-bottom: 63px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 88px;
+    margin: 0 auto;
+}
+
+.flx {
+    justify-content: center;
+    gap: 16px;
+}
+
+.container.flx {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFF;
+}
+
+.download-btn,
+.info-btn {
+    border: none;
+    transition: all 0.8s ease;
+}
+
+.download-btn:hover,
+.info-btn:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.download-btn {
+    padding: 16px 40px;
+    background: #4D96A9;
+    border-radius: 29px;
+    font: inherit;
+    color: inherit;
+}
+
+.download-btn:hover {
+    background: #71C0D4;
+}
+
+.download-btn span {
+    color: #8FE3F9;
+}
+
+.info-btn {
+    padding: 16px 30px;
+    border-radius: 29px;
+    background-color: #855FB1;
+    font: inherit;
+    color: inherit;
+}
+
+.info-btn:hover {
+    background: #B18BDD;
+}
+
+.image-hero-left,
+.image-hero-right {
+    width: 393px;
+    height: 303px;
+    background-repeat: no-repeat;
+    background-size: 403px cover;
+}
+
+.image-hero-left {
+    background-image: url('./assets/desktop/image-hero-left.png');
+    order: 1;
+    background-position: top right;
+}
+
+.image-hero-right {
+    background-image: url('./assets/desktop/image-hero-right.png');
+    order: 3;
+}
+
+.container section {
+    max-width: 540px;
+    order: 2;
+}
+
+.container h1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 34px;
+
+    color: #28283D;
+}
+
+.container p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 32px;
+
+    color: #87879D;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 153px;
+}
+
+.first-section {
+    text-align: center;
+    align-content: center;
+    position: relative;
+    width: 56px;
+    height: 56px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #87879D;
+    /* padding: 15px 19px; */
+    background: #FAFAFA;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 29px;
+    margin-bottom: 64px;
+}
+
+.first-section div {
+    position: absolute;
+    height: 81px;
+    opacity: 0.25;
+    border: 1px solid #87879D;
+    left: 50%;
+    top: -100%;
+    transform: translate(-50%, -33%);
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.gallery div {
+    width: 255px;
+    height: 242px;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.first-img {
+    background-image: url('./assets/desktop/image-woman-in-videocall.jpg');
+}
+
+.second-img {
+    background-image: url('./assets/desktop/image-women-videochatting.jpg')
+}
+
+.third-img {
+    background-image: url('./assets/desktop/image-men-in-meeting.jpg');
+}
+
+.fourth-img {
+    background-image: url('./assets/desktop/image-man-texting.jpg');
+}
+
+.app-details {
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.app-details div {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4D96A9;
+    margin-bottom: 16px;
+}
+
+.app-details h2 {
+    max-width: 445px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    color: #28283D;
+    margin-bottom: 32px;
+}
+
+.app-details p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #87879D;
+}
+
+footer::before {
+    content: "";
+    background-color: #4D96A9;
+    opacity: 0.9;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    position: relative;
+    background-image: url('./assets/desktop/image-footer.jpg');
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.second-section {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-content: center;
+    width: 56px;
+    height: 56px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #87879D;
+    background: #FAFAFA;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 29px;
+}
+
+.second-section div {
+    position: absolute;
+    height: 81px;
+    opacity: 0.25;
+    border: 1px solid #87879D;
+    left: 50%;
+    top: -100%;
+    transform: translate(-50%, -33%);
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    padding: 112px;
+}
+
+.footer-section h2 {
+    max-width: 350px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    color: #FAFAFA;
+}
+
+.footer-section div {
+    max-width: 350px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FAFAFA;
+}
+
+.footer-section .download-btn {
+    background: #855FB1;
+}
+
+.footer-section .download-btn:hover {
+    background: #B18BDD;
+}
+
+.footer-section .download-btn span {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #D9B8FF;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439.99px) {
+    header {
+        padding-top: 48px;
+    }
+
+    .image-hero-left {
+        order: 1;
+    }
+
+    .image-hero-right {
+        order: 2;
+    }
+
+    .container section {
+        order: 3;
+    }
+
+    .container {
+        gap: 16px;
+        justify-content: space-between;
+        justify-content: center;
+        max-width: 880px;
+        flex-wrap: wrap;
+    }
+
+    .image-hero-left,
+    .image-hero-right {
+        width: 376px;
+        height: 303px;
+        background-size: 376px;
+    }
+
+    .container h1 {
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
+
+    .container p {
+        max-width: 447px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .gallery div {
+        width: 164px;
+        height: 156px;
+    }
+
+    .app-details {
+        max-width: 573px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .app-details p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+
+        color: #87879D;
+    }
+
+    footer {
+        position: relative;
+        background-image: url('./assets/tablet/image-footer.jpg');
+        background-size: cover;
+        opacity: 0.9;
+    }
+
+    .second-section div {
+        position: absolute;
+        height: 81px;
+        opacity: 0.25;
+        border: 1px solid #87879D;
+        left: 50%;
+        top: -100%;
+        transform: translate(-50%, -33%);
+    }
+
+    .footer-section {
+        text-align: center;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .footer-section h3 {
+        max-width: 457px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        color: #FAFAFA;
+    }
+
+    .footer-section div {
+        max-width: 573px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .info-btn {
+        background: #855FB1;
+        border-radius: 29px;
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+    header {
+        padding-top: 48px;
+    }
+
+    .image-hero-left {
+        order: 1;
+    }
+
+    .image-hero-right {
+        order: 2;
+    }
+
+    .container section {
+        order: 3;
+    }
+
+    .container {
+        gap: 16px;
+        justify-content: space-between;
+        justify-content: center;
+        max-width: 414px;
+        flex-wrap: wrap;
+        margin-bottom: 64px;
+    }
+
+    .image-hero-left,
+    .image-hero-right {
+        width: 170px;
+        height: 153px;
+        background-size: 170px;
+    }
+
+    .container h1 {
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 24px;
+    }
+
+    .container p {
+        max-width: 327px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .container.flx {
+        flex-direction: column;
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+    }
+
+    .gallery div {
+        width: 151px;
+        height: 143px;
+    }
+
+    .app-details {
+        max-width: 327px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .app-details h2 {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .app-details p {
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+
+        color: #87879D;
+    }
+
+    footer {
+        position: relative;
+        background-image: url('./assets/tablet/image-footer.jpg');
+        background-size: cover;
+        opacity: 0.9;
+    }
+
+    .second-section div {
+        position: absolute;
+        height: 81px;
+        opacity: 0.25;
+        border: 1px solid #87879D;
+        left: 50%;
+        top: -100%;
+        transform: translate(-50%, -33%);
+    }
+
+    .footer-section {
+        text-align: center;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .footer-section h3 {
+        min-width: 327px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #FAFAFA;
+    }
+
+    .footer-section div {
+        min-width: 327px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .download-btn {
+        background: #4D96A9;
+    }
+
+    .info-btn {
+        background: #855FB1;
+        border-radius: 29px;
+    }
+
+    .footer-section .download-btn {
+        background: #855FB1;
+    }
+}

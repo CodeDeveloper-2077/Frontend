@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./imgs/Oval\ Copy\ 30.png'), url('./imgs/Oval\ Copy\ 32.png');
+    background-position: left top, bottom right;
+    background-repeat: no-repeat;
+    background-color: #19a1ae;
+}
+
+section {
+    text-align: center;
+    min-width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.head-bg {
+    background-image: url('./imgs/Oval.png');
+    border-radius: 15px 15px 0 0;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.head-bg img {
+    padding-top: 87px;
+    margin-bottom: 24px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #6B7082;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #2E3349;
+    margin-bottom: 8px;
+}
+
+h2~p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B7082;
+    margin-bottom: 25px;
+}
+
+hr {
+    margin-bottom: 21px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #2E3349;
+}
+
+h3~p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1.5px;
+
+    color: #6B7082;
+}
