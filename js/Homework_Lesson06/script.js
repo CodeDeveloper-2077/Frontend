@@ -15,11 +15,11 @@ console.log(quote);
 
 //Task 3
 let verse = "Світло кінця тунелю, а за спиною лише темрява";
-console.log(verse.indexOf('Світло'));
+console.log(verse.indexOf('світло'));
 console.log(verse.indexOf('темрява'));
-console.log(verse.startsWith('Світло'));
+console.log(verse.startsWith('світло'));
 console.log(verse.endsWith('темрява'));
 
 //Task 4
 let phrase = "Сонце світить яскраво";
-console.log(phrase.toLowerCase().replace('сонце', 'Місяць'));
+console.log(phrase.toLowerCase().replace('сонце', 'місяць'));

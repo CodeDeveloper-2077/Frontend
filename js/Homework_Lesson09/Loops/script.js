@@ -6,7 +6,7 @@ while (i >= 23) {
         result += i + " ";
     }
 
-    i--;
+    i -= 3;
 }
 
 console.log(result);
@@ -15,7 +15,8 @@ console.log(result);
 let randomNumber = 0;
 let counter = 0;
 do {
-    randomNumber = Number.parseInt(Math.random() * 10 + 1);
+    randomNumber = Math.floor(Math.random() * 10 + 1);
+    console.log(randomNumber);
     counter++;
 }
 while (randomNumber !== 8);

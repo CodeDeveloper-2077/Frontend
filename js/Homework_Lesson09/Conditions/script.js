@@ -8,7 +8,7 @@ else {
 }
 
 //Task 2
-const dayOfWeek = Number.parseFloat(prompt('Write a day of week'));
+const dayOfWeek = Number.parseInt(prompt('Write a day of week'));
 switch (dayOfWeek) {
     case 0: {
         console.log('Понеділок');
